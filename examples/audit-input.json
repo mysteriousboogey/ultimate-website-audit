@@ -1,0 +1,150 @@
+{
+  "rubric_version": "1.0",
+  "sites": [
+    {
+      "url": "https://example.com",
+      "checks": {
+        "S1": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S2": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S3": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S4": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S5": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S6": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S7": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S8": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S9": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "S10": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "A1": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "A2": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "A3": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "A4": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "A5": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "G1": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "G2": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "G3": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "G4": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ],
+        "G5": [
+          {
+            "unit": "unassessed",
+            "status": "unknown",
+            "evidence": "Example only; collect real evidence before grading."
+          }
+        ]
+      }
+    }
+  ]
+}

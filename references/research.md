@@ -1,0 +1,47 @@
+# Research basis
+
+Checked 7 November 2026, Asia/Kuala_Lumpur. Public sources were discovered with web search, opened for verification, and selected pages extracted with Scrapling 0.5.1 (`--ai-targeted`). This document is a synthesis, not copied source text. Source publication/updated dates differ from access dates; availability does not prove freshness. This is a practical multi-source review, not an exhaustive literature review.
+
+## Evidence hierarchy and decisions
+
+1. Current official engine documentation governs eligibility, controls and supported features.
+2. Original research supports hypotheses only within its methods and evaluated engines.
+3. Vendor-authored guides contribute audit workflow and industry observations, not proof of engine ranking mechanisms. Vendor scores and causal promises are not adopted.
+4. The rubric weights, 80-point threshold, sampling limits and AEO/GEO diagnostic split are design decisions for this skill. They have not been empirically calibrated against rankings or citations. Arithmetic is reproducible from a frozen ledger; content judgements require explicit tests and evidence.
+
+## Official sources
+
+- [Google: optimizing for generative AI search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), page updated 10 July 2026, verified by Scrapling and browser search. Primary current guidance: useful original content, technical eligibility and user experience. Rejects mandatory content chunking, special AI files and special schema. Also documents a Search Console inclusion control and Generative AI performance report. Those account settings cannot be established from public HTML; record unknown without authorized account evidence. Applies to G1 and all content recommendations.
+- [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features), updated 10 December 2025 in extracted page. Useful baseline on snippet/index eligibility and retrieval. Its older account-reporting description differs from the newer guide above: follow the newer official guide, not the older blanket claim that only combined Web reporting is available.
+- [Google: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide). Basis for descriptive pages, useful content, discoverability and image context. Applies to S4–S6 and supplementary metadata/media findings; does not establish rigid keyword density or word-count rules.
+- [Google: technical requirements](https://developers.google.com/search/docs/essentials/technical). Distinguishes eligibility from guaranteed inclusion. Applies to S1/S2; actual indexed status requires further evidence.
+- [Google: robots.txt introduction](https://developers.google.com/search/docs/crawling-indexing/robots/intro). Crawl controls are not reliable removal/index-exclusion controls. Applies to S2 and collection permissions; never conflate robots disallow with noindex.
+- [Google: canonicalization](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls). Guides handling duplicate URL preferences and consistent signals. Applies to S3; do not diagnose a duplicate-content penalty or compulsory self-canonical from absent markup alone.
+- [Google: crawlable links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable). Real anchors and meaningful destinations support discovery. Applies to S4; script-only navigation needs inspection rather than assumptions.
+- [Google: JavaScript SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics). Fetching, rendering and indexing require separate attention. Supports raw/rendered comparisons; does not support a fixed rendering delay or treating every client-rendered page as broken.
+- [Google: helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content). Basis for task satisfaction, attribution and demonstrated expertise. Applies to S6/G3; author bios alone do not establish factual accuracy or a numeric E-E-A-T score.
+- [Google: structured data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies). Visible content correspondence and feature-specific rules matter. Applies to S9; parsing JSON-LD is not proof of eligibility, and valid markup cannot guarantee a rich result or AI citation.
+- [Google: featured snippets](https://developers.google.com/search/docs/appearance/featured-snippets). Selection is algorithmic; no markup can designate a page a featured snippet and there is no universal required snippet length. Supports reporting AEO as answer usability, not promised snippet performance.
+- [Google: PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about), extracted with Scrapling. Field CrUX and lab Lighthouse answer different questions. Field assessment uses p75, a trailing 28-day period and device/scope distinctions. S8 tests observed LCP <=2.5s, INP <=200ms and CLS <=0.1 separately; missing INP is not invented or replaced with TBT.
+- [Google: documentation changelog](https://developers.google.com/search/updates), extracted with Scrapling. Records FAQ rich-result retirement from 7 May 2026 and documentation removal in June. Historical “restricted to authoritative health/government sites” advice is no longer current. Keep useful FAQs for readers; never deduct for missing FAQ schema or promise FAQ rich results. Also check feature retirements before recommending HowTo/other markup.
+- [Google: Mobile-Friendly Test API retirement notice](https://developers.google.com/search/blog/2017/01/introducing-mobile-friendly-test-api). Mobile-Friendly Test/API retired in December 2023. Use current browser/diagnostic tooling instead of instructing users to run the retired test or Mobile Usability report.
+
+## Industry sources requested in the brief
+
+- [Ahrefs: SEO audit](https://ahrefs.com/blog/seo-audit/), updated 19 December 2024; extracted with Scrapling. Useful sequence: access/indexation, variants, links, performance and sitemap checks. Contains stale Mobile-Friendly Test/Mobile Usability instructions; those instructions were explicitly excluded in favor of official retirement notices.
+- [Semrush: complete SEO audit](https://www.semrush.com/blog/seo-audit/), extracted with Scrapling. Broadens workflow across technical health, content, authority and AI visibility. Adopt evidence collection and prioritization; independently validate feature claims and bot/control details. FAQ/HowTo recommendations are not accepted as promises of Google feature availability.
+- [Moz: technical optimization chapter](https://moz.com/beginners-guide-to-seo/technical-seo), extracted successfully with Scrapling after the `/learn/seo/technical-seo` URL returned 404. Useful explanation of rendering, structure and development dependencies. The chapter includes dated fixed “second pass” timing language; use Google's current JavaScript guide for engine behavior. No Moz metric is treated as a Google ranking score.
+- [Ahrefs: AEO definition](https://ahrefs.com/aeo/what-is-aeo), dated 28 August 2025 in opened page. Shows industry focus on usefulness and visibility in direct answers. Terms overlap with GEO; this skill's split is an operational convention, not an industry standard.
+- [Ahrefs: GEO strategies and metrics](https://ahrefs.com/blog/geo-generative-engine-optimization/). Useful framing of brand representation, mentions/citations and outcome measurement. These are observations/strategy, not official eligibility requirements; citation checks are reported separately from readiness scores.
+
+## Original research and limits
+
+- [Aggarwal et al., GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735), KDD 2024, v3 revised 28 June 2024, abstract retrieved with Scrapling. Introduces a benchmark/framework for generative visibility and reports effects varying by domain. Supports testing evidence-rich content as a hypothesis. The benchmark's maximum reported gain is not a forecast for a client's live website; no universal uplift, mandatory quotation/statistic recipe or causal claim is adopted from the abstract. Full-paper methods were not independently replicated.
+
+## Sources not established strongly enough for scored claims
+
+[Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) and [AI Performance help](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c) returned JavaScript shells in the web reader. Search excerpts were discovery leads only. Re-fetch rendered official documentation before making Bing-specific claims or scoring controls. Do not claim verified feature availability from these excerpts. Other engines likewise require current official documentation during an audit; never copy crawler names or permission assumptions from third-party lists alone.
+
+## Maintenance
+
+Each audit checks current official guidance for used features, bots and controls. Every 90 days revisit industry and research links. Record redirects, failed fetches, changed source dates and contradictions. Keep uncertain emerging tactics as optional experiments with a measurable baseline; no fabricated testimonials, citations, backlinks, statistics or artificial mentions. No llms.txt, schema, content-length, training-access or paid-tool requirement without a specific documented purpose.

@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "overall_weights": {
+    "SEO": 0.5,
+    "AEO": 0.25,
+    "GEO": 0.25
+  },
+  "criteria": [
+    {
+      "id": "S1",
+      "category": "SEO",
+      "weight": 15,
+      "name": "Fetchability",
+      "pass_test": "Each intended landing page returns a usable 200 HTML response after legitimate redirects; exclude deliberate removals."
+    },
+    {
+      "id": "S2",
+      "category": "SEO",
+      "weight": 15,
+      "name": "Index eligibility",
+      "pass_test": "Each intended landing page is allowed for Googlebot and has no noindex or contradictory blocking header. Eligibility is not proof of indexing."
+    },
+    {
+      "id": "S3",
+      "category": "SEO",
+      "weight": 10,
+      "name": "Canonical consistency",
+      "pass_test": "Each sampled duplicate/variant set resolves or signals one relevant preferred URL; canonical targets work and signals do not conflict. Missing self-canonical alone is not failure."
+    },
+    {
+      "id": "S4",
+      "category": "SEO",
+      "weight": 10,
+      "name": "Internal discovery",
+      "pass_test": "Each intended page is reachable through a crawlable internal anchor from its relevant hub; tested internal links resolve to intended content. No arbitrary click-depth rule."
+    },
+    {
+      "id": "S5",
+      "category": "SEO",
+      "weight": 10,
+      "name": "Page meaning",
+      "pass_test": "Each landing page has a descriptive title and clear main heading consistent with its content and intent. Multiple H1s alone are not failure."
+    },
+    {
+      "id": "S6",
+      "category": "SEO",
+      "weight": 10,
+      "name": "Useful content",
+      "pass_test": "For each frozen user task, the mapped page provides the requested information without a demonstrable material omission, misleading claim, or obstructive interstitial. State the missing task detail for failure."
+    },
+    {
+      "id": "S7",
+      "category": "SEO",
+      "weight": 10,
+      "name": "Mobile usability",
+      "pass_test": "Each representative template at a recorded mobile viewport has readable main content and usable navigation with no content-obscuring overlap or unintended horizontal scroll."
+    },
+    {
+      "id": "S8",
+      "category": "SEO",
+      "weight": 10,
+      "name": "Core Web Vitals",
+      "pass_test": "One unit per available field metric/device/URL or origin: p75 LCP <=2500ms, INP <=200ms, CLS <=0.1. Missing metrics unknown; never substitute lab TBT for INP."
+    },
+    {
+      "id": "S9",
+      "category": "SEO",
+      "weight": 5,
+      "name": "Structured data integrity",
+      "pass_test": "Each present markup block parses, matches visible facts, and meets current required properties for the claimed supported feature. Absent markup is NA unless an agreed feature goal requires it."
+    },
+    {
+      "id": "S10",
+      "category": "SEO",
+      "weight": 5,
+      "name": "Discovery signals",
+      "pass_test": "Each sitemap entry sampled is a preferred live indexable URL; each applicable hreflang set uses valid reciprocal locale references. No sitemap/hreflang requirement for a simple single-language site."
+    },
+    {
+      "id": "A1",
+      "category": "AEO",
+      "weight": 30,
+      "name": "Direct answer",
+      "pass_test": "Each frozen question has an explicit answer on its mapped page; cite the question and answer location. A missing mapped answer is failure only after inspecting the mapped page."
+    },
+    {
+      "id": "A2",
+      "category": "AEO",
+      "weight": 25,
+      "name": "Extractable text",
+      "pass_test": "Each mapped answer exists as selectable text in fetched or rendered DOM rather than only an image, inaccessible embed, or unavailable interaction."
+    },
+    {
+      "id": "A3",
+      "category": "AEO",
+      "weight": 20,
+      "name": "Answer structure",
+      "pass_test": "Each mapped answer is associated with a descriptive heading or semantic list/table appropriate to its question; no compulsory FAQ format or fixed word count."
+    },
+    {
+      "id": "A4",
+      "category": "AEO",
+      "weight": 15,
+      "name": "Answer precision",
+      "pass_test": "Each mapped answer states the units, conditions, audience or limitations needed to interpret that question correctly. Log the exact missing qualifier for failure."
+    },
+    {
+      "id": "A5",
+      "category": "AEO",
+      "weight": 10,
+      "name": "Follow-up completeness",
+      "pass_test": "Each frozen follow-up task has a working route to its relevant explanation or next action. No need to add irrelevant FAQ pages."
+    },
+    {
+      "id": "G1",
+      "category": "GEO",
+      "weight": 20,
+      "name": "Retrieval controls",
+      "pass_test": "For each agreed search/grounding engine, sampled intended pages have no documented access or reuse restriction contradicting the owner goal. Inspect current official bot/control documentation first; ordinary fetch success cannot prove bot access."
+    },
+    {
+      "id": "G2",
+      "category": "GEO",
+      "weight": 20,
+      "name": "Entity consistency",
+      "pass_test": "Each sampled organization/product fact agrees across visible pages and present structured data (name, offering, contact, price/units where applicable). Unchecked external profiles unknown."
+    },
+    {
+      "id": "G3",
+      "category": "GEO",
+      "weight": 25,
+      "name": "Traceable evidence",
+      "pass_test": "Each frozen material factual claim has an identifiable primary reference, attributable first-party evidence/method, or appropriate expert responsibility. Unsupported external truth is unknown, not automatically false."
+    },
+    {
+      "id": "G4",
+      "category": "GEO",
+      "weight": 20,
+      "name": "Citable context",
+      "pass_test": "Each frozen evidence passage identifies its subject and attaches the date, scope or methodology needed to reuse it accurately; cite a concrete ambiguity for failure."
+    },
+    {
+      "id": "G5",
+      "category": "GEO",
+      "weight": 15,
+      "name": "Maintenance transparency",
+      "pass_test": "Each time-sensitive sampled fact has an accurate applicable date/version/validity context and no confirmed contradiction with its cited primary source. Static evergreen facts do not need update dates."
+    }
+  ]
+}
